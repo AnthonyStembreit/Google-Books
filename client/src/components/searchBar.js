@@ -1,11 +1,12 @@
 import React from 'react'
-import {Navbar, Icon} from 'react-materialize'
+import { Navbar } from 'react-materialize'
 
-export default function SearchBar(){
-    return(
-        <Navbar 
-        menuIcon={<Icon>menu</Icon>}
-        search
-        />
+export default function SearchBar() {
+    return (
+        <div>
+            <Navbar
+            search>
+            </Navbar>
+        </div>
     )
 }
